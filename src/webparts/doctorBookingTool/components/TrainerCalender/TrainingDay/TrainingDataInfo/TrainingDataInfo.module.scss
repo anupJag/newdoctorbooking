@@ -1,0 +1,30 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+.TrainingDataInfo{
+   /*   
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+    */
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    height: inherit;
+
+    .NoData{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        position: relative;
+
+        .NoDataContent{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.Header{
+    /* Commented on 15 Nov 2018 By Sandesh
+    height: 20%;*/
+    height : 10%;
+    background: $ms-color-themePrimary;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    color: #fff;
+
+    .HeaderContent{
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.68em;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+}
+
+
+

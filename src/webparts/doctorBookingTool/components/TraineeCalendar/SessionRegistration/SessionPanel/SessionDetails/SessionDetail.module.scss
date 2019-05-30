@@ -1,0 +1,96 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.SessionDetail{
+    width: 100%;
+    border: 1px solid #ddd;
+
+    .Session{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-weight: 600;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .SessionTitleContainer{
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        padding: 5px 0;
+
+        .SessionTitle{
+            width: 50%;
+            text-align: center;
+            border-right: 1px solid #ddd;
+        }
+
+        .Title{
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+    .SessionOfferingContainer{
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        padding: 5px 0;
+        align-items: center;
+
+        .SessionOffering{
+            width: 50%;
+            text-align: center;
+        }
+
+        .Offering{
+            width: 49%;
+            text-align: center;
+            border-left: 1px solid #ddd;
+        }
+    }
+
+    .Details{
+        width: 100%;
+        display: flex;
+        text-align: center; 
+
+        .SessionDateContainer{
+            width: 50%;
+            border-right: 1px solid #ddd;
+
+            .SessionDate{
+                width: 100%;
+                border-bottom: 1px solid #ddd;
+                padding: 5px 0;                
+                font-weight: 600;
+            }
+
+            .SessionDateDetail{
+                width: 100%;
+                padding: 5px 0;
+                font-weight: 600;
+                color: $ms-color-themePrimary;
+            }
+        }
+
+        .SessionTimingContainer{
+            width: 50%;
+
+            .SessionSlotTiming{
+                width: 100%;
+                border-bottom: 1px solid #ddd;
+                padding: 5px 0;
+                font-weight: 600; 
+            }
+
+            .SessionSlotTimingDetail{
+                width: 100%;
+                padding: 5px 0;
+                font-weight: 600;                
+                color: $ms-color-themePrimary;
+            }
+
+        }
+    }
+}

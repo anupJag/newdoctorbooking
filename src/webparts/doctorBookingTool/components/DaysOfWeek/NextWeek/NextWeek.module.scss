@@ -1,0 +1,21 @@
+.nextWeekButton{
+    height: 100%;
+    width: 18%;
+    cursor: pointer;
+    margin-right: 1%;
+    background-image: url(https://team.effem.com/sites/myAnalytics/SiteAssets/Images/nxtWeek.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+
+    &:focus{
+        outline: none;
+    }
+
+    &:active{
+        outline: none;
+    }
+
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "doctor-booking-tool-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/doctorBookingTool/DoctorBookingToolWebPart.js",
+          "manifest": "./src/webparts/doctorBookingTool/DoctorBookingToolWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DoctorBookingToolWebPartStrings": "lib/webparts/doctorBookingTool/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

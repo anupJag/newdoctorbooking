@@ -1,0 +1,13 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+
+.TopicSelectionLabel{
+    padding: 12px;
+
+    .TopicLabel{
+        font-size: 1.3em;
+        color: #fff;
+        font-weight: 100;
+        width: 50%;
+    }
+}

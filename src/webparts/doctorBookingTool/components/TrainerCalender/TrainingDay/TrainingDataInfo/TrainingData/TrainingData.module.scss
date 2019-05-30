@@ -1,0 +1,54 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.Info{
+    display: flex; 
+    justify-items: self-end;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    height: 45px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: space-between;
+    
+    .InfoHolder{
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+        justify-self: self-start;
+
+        .SessionCss{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+    .DoctorDispNameCss {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 45%;
+        text-align: center;
+    }
+
+    .ButtonStyle{
+        width: 10%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.CurrLoggedInUserStyles{
+    border: 1px solid;
+    border-color:$ms-color-themePrimary;
+    color: $ms-color-themePrimary;
+    border-radius: 5px;
+}
+
+.OtherUsersDataStyles{
+    opacity: 0.3;
+}

@@ -1,0 +1,24 @@
+.TrainingInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    width: 100% !important;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-weight: 500;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 12px;
+    height: 40px;
+
+    .Info{
+        display: flex;
+        flex-direction: row;
+
+        .Date{
+            margin-left: 15px;
+        }
+
+    }
+}

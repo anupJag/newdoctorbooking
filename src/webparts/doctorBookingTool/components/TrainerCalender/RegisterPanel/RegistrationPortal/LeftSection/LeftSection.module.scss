@@ -1,0 +1,21 @@
+.LeftSection{
+    width: 100%;
+
+    .TextFieldSection{
+        width: 100%;
+        div[class^="ms-TextField-fieldGroup fieldGroup_"] input{
+            font-weight: 500;
+        }
+    }
+
+    .TextMultiLineFieldSection{
+
+        div[class^="ms-TextField-fieldGroup fieldGroup_"] textarea{
+            font-weight: 500;
+        }
+    }
+
+    .DropDownSelectionSection{
+        width: 100%;
+    }
+}

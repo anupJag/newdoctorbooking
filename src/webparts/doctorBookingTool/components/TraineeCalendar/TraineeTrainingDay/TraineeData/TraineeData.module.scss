@@ -1,0 +1,90 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.Info{
+    display: flex;
+    justify-items: self-end;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    height: 45px;
+    align-items: center;
+    padding: 0 12px;
+    box-sizing: border-box;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    width: 100%;
+    justify-content: space-between;
+    
+    .InfoHolder{
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+        justify-self: self-start;
+
+        .SessionInfo{
+            width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .SessionCss{
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+
+    .DoctorDispNameCss {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        justify-self: center;
+        width: 40%;
+        text-align: center;
+    }
+
+    .ButtonStyle{
+        width: 15%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.BookedSlot{
+    border: 1px solid;
+    background-color:$ms-color-green;
+    color: $ms-color-white;
+    border-radius: 5px;
+}
+
+.AvailableSlot{
+    border: 1px solid;
+    border-color:$ms-color-themePrimary;
+    color: $ms-color-themePrimary;
+    border-radius: 5px;
+}
+
+.NotBookedForMe{
+    opacity: 0.3;
+}
+
+.ButtonStyling{
+    height: 100%;
+    width: 100%;
+    /* cursor: pointer; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0;
+    background-color: transparent;
+
+    &:focus{
+        outline: none;
+    }
+
+    &:active{
+        outline: none;
+    }
+}
